@@ -1,0 +1,50 @@
+# ================================
+# 🐍 Django / Python backend ignores
+# ================================
+
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+
+# Virtual environment
+venv/
+env/
+*.env
+*.venv
+
+# Django static and media files (if generated locally)
+staticfiles/
+media/
+
+# IDE / editor
+.idea/
+.vscode/
+*.log
+
+# ================================
+# ⚛️ React frontend ignores
+# ================================
+
+# Node dependencies
+frontend/node_modules/
+
+# Build outputs
+frontend/build/
+frontend/dist/
+
+# Local environment files
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+
+# Misc
+.DS_Store
+
+# ================================
+# Optional: OS or temporary files
+# ================================
+Thumbs.db
+*.bak

@@ -1,0 +1,134 @@
+/* admin.css */
+
+.add-product-container, .admin-dashboard {
+    padding: 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .add-product-container h2,
+  .admin-dashboard h1,
+  .admin-dashboard h2 {
+    margin-bottom: 1.5rem;
+    color: #333;
+  }
+  
+  form .form-group {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form .form-group label {
+    font-weight: 600;
+    margin-bottom: 0.3rem;
+  }
+  
+  form .form-group input,
+  form .form-group textarea {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+  }
+  
+  .submit-btn,
+  .add-product-btn,
+  .view-btn,
+  .action-buttons button {
+    padding: 0.5rem 1rem;
+    background-color: #1e88e5;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-btn:hover,
+  .add-product-btn:hover,
+  .view-btn:hover,
+  .action-buttons button:hover {
+    background-color: #1565c0;
+  }
+  
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 1rem;
+    margin: 2rem 0;
+  }
+  
+  .stat-card {
+    background-color: #f4f6f8;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+  }
+  
+  .stat-card .value {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0.5rem 0;
+  }
+  
+  .stat-card .change {
+    font-size: 0.9rem;
+    color: green;
+  }
+  
+  .recent-orders table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .recent-orders table th,
+  .recent-orders table td {
+    padding: 0.75rem 1rem;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .status-badge {
+    padding: 0.2rem 0.6rem;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 0.9rem;
+  }
+  
+  .status-badge.shipped {
+    background-color: #e0f7fa;
+    color: #00796b;
+  }
+  
+  .status-badge.delivered {
+    background-color: #e8f5e9;
+    color: #388e3c;
+  }
+  
+  .status-badge.processing {
+    background-color: #fff3e0;
+    color: #f57c00;
+  }
+  
+  .quick-actions {
+    margin-top: 2rem;
+  }
+  
+  .action-buttons {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  
+  .action-buttons button {
+    flex: 1;
+    min-width: 120px;
+  }
+  
